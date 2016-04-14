@@ -1,6 +1,6 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
+    "name": "maiconpinto/cakep-blog-tutorial",
+    "description": "CakePHP Blog Tutorial",
     "homepage": "http://cakephp.org",
     "type": "project",
     "license": "MIT",
