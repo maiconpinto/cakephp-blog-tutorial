@@ -9,6 +9,7 @@
     <fieldset>
         <legend><?= __('Add Article') ?></legend>
         <?php
+            echo $this->Form->input('category_id');
             echo $this->Form->input('title');
             echo $this->Form->input('body');
         ?>
