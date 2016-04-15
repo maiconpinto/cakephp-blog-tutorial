@@ -19,7 +19,7 @@
     <fieldset>
         <legend><?= __('Edit Category') ?></legend>
         <?php
-            echo $this->Form->input('parent_id', ['options' => $parentCategories, 'empty' => true]);
+            echo $this->Form->input('parent_id', ['options' => $parentCategories, 'empty' => 'No parent category']);
             echo $this->Form->input('name');
             echo $this->Form->input('description');
         ?>
