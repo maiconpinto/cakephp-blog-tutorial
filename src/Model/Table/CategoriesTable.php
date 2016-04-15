@@ -61,12 +61,10 @@ class CategoriesTable extends Table
 
         $validator
             ->integer('lft')
-            ->requirePresence('lft', 'create')
             ->notEmpty('lft');
 
         $validator
             ->integer('rght')
-            ->requirePresence('rght', 'create')
             ->notEmpty('rght');
 
         $validator
