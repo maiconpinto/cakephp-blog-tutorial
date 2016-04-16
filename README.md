@@ -18,7 +18,7 @@ OR
 `composer create-project --prefer-dist maiconpinto/cakephp-blog-tutorial [app_name]`
 
 
-> Learn to use the composer, it is an essential tool. [Official website](http://getcomposer.org) and if you want I have a friend who provided free course [composer in practice](https://www.webdevbr.com.br/composer-na-prática), the Erik Figueiredo of website [webdevbr.com.br]((https://www.webdevbr.com.br/))
+> Learn to use the composer, it is an essential tool. [Official website](http://getcomposer.org) and if you want I have a friend who provided free course [composer in practice](https://www.webdevbr.com.br/composer-na-prática), the Erik Figueiredo of website [webdevbr.com.br](https://www.webdevbr.com.br/)
 
 ## Configuration
 
