@@ -1,30 +1,31 @@
 # CakePHP Blog Tutorial
 
 
-Este projeto é o resultado do tutorial passo-a-passo do site oficial do CakePHP. É uma forma de praticar e estudar a nova versão do CakePHP 3.x.
+This project is the result of the tutorial step-by-step Official CakePHP website. It is a way to practice and study the new version of CakePHP 3.x.
 
-Basicamente `CTRL+C` `CTRL+V` do site, com algumas pequenas mudanças, como adição do [Migration](http://book.cakephp.org/3.0/en/migrations.html).
+Basically `CTRL+C` `CTR+V` of site, with some minor changes, such as adding the [Migration](http://book.cakephp.org/3.0/en/migrations.html).
 
 
-## Instalação
+## Installation
 
 
 `composer create-project maiconpinto/cakephp-blog-tutorial`
 
 
-OU
+OR
 
 
 `composer create-project --prefer-dist maiconpinto/cakephp-blog-tutorial [app_name]`
 
 
 > Aprenda a utilizar o composer, é uma ferramenta essencial. [Site oficial](http://getcomposer.org), e se quiser tem um amigo que disponibilizou curso gratuito [composer na prática](https://www.webdevbr.com.br/composer-na-prática), o Erik Figueiredo do (https://www.webdevbr.com.br/).
+> Learn to use the composer, it is an essential tool. [Official website](http://getcomposer.org) and if you want I have a friend who provided free course [composer in practice](https://www.webdevbr.com.br/composer-na-prática), the Erik Figueiredo of website [webdevbr.com.br]((https://www.webdevbr.com.br/))
 
-## Configuração
+## Configuration
 
 `mv config/app.default.php config/app.php`
 
-Edite o arquivo.
+Edit file.
 
 ```php
 //config/app.php
@@ -53,12 +54,12 @@ Edite o arquivo.
 
 ## Migrations
 
-Após instalar e configurar o banco de dados, vamos rodar o Migration, para criar as tabelas. 
+After installing and configuring the database, let's run the migration to create the tables.
 
 `bin/cake migrations migrate`
 
 
-## Links Úteis
+## Useful links
 
 
 [Tutorials & Examples](http://book.cakephp.org/3.0/en/tutorials-and-examples.html)
