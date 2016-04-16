@@ -22,12 +22,12 @@ OU
 
 ## Configuração
 
-`mv Confif/app.default.php Config/app.php`
+`mv config/app.default.php config/app.php`
 
 Edite o arquivo.
 
 ```php
-//Config/app.php
+//config/app.php
 
 'Datasources' => [
         'default' => [
@@ -55,7 +55,7 @@ Edite o arquivo.
 
 Após instalar e configurar o banco de dados, vamos rodar o Migration, para criar as tabelas. 
 
-`bin/cake migration migrate`
+`bin/cake migrations migrate`
 
 
 ## Links Úteis
